@@ -1,5 +1,7 @@
 .background_img {
 	background-image: url('Sprites/background.png');
 	background-repeat: repeat-x;
-	width: auto;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
 }
