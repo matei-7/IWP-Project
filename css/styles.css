@@ -1,0 +1,248 @@
+/*
+    blue: #27bec5;
+	white: #ffffff;
+	dark-grey: #e6e6e6;
+	light-grey: #f2f2f2;
+	orange: #ff7101;
+	black: #1e1c1c;
+*/
+.row-header {
+    max-height:75px;
+    background-color: #27bec5;
+    margin-bottom: 40px;
+}
+
+.row-header .logo {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.row-header .menu {
+    width: 75px;
+}
+
+.row-header img {
+    max-height: 74px;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.menu-item {
+    padding: 23px 5px 0;
+}
+
+.main-menu img {
+    max-height: 24px;
+}
+
+.language {
+    border: none;
+    padding: 15px;
+}
+
+.language a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+}
+
+.language a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.row-header .col-lg-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-general {
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d7d7d7;
+    box-shadow: 1px 1px #6d6d6d;
+}
+
+.row-general img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.row-general .feat-txt {
+    height: 420px;
+    padding: 40px 20px;
+}
+
+.row-general .feat-txt .more{
+    font-size: 18px;
+}
+
+.row-general .feat-txt a {
+    color: black;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+}
+
+.row-general .feat-txt a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.row-general .date {
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+.row-general .feat-img {
+    padding: 0 0;
+}
+
+.row-top .review-img {
+    padding: 0;
+    height: 65%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.row-top {
+    height: 600px;
+    position: relative;
+}
+
+.row-top .col-lg-4 {
+    margin-bottom: 250px;
+    padding: 0;
+    margin: 20px 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #6d6d6d;
+}
+
+.row-top .review-text {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.row-top .review-text .rev1 {
+    color: darkred;
+    text-decoration: none;
+}
+
+.row-top .review-text .rev1:hover {
+    text-decoration: underline;
+}
+
+.row-top .more1{
+    font-size: 18px;
+    color: darkred;
+    text-decoration: none;
+}
+
+.row-top .more1:hover {
+    text-decoration: underline;
+}
+
+.row-top .review-text .rev2 {
+    color: #ff7101;
+    text-decoration: none;
+}
+
+.row-top .review-text .rev2:hover {
+    text-decoration: underline;
+}
+
+.row-top .more2{
+    font-size: 18px;
+    color: #ff7101;
+    text-decoration: none;
+}
+
+.row-top .more2:hover {
+    text-decoration: underline;
+}
+
+.row-top .review-text .rev3 {
+    color: #27c991;
+    text-decoration: none;
+}
+
+.row-top .review-text .rev3:hover {
+    text-decoration: underline;
+}
+
+.row-top .more3{
+    font-size: 18px;
+    color: #27c991;
+    text-decoration: none;
+}
+
+.row-top .more3:hover {
+    text-decoration: underline;
+}
+
+.review-img-1 {
+    background-image: url(../images/DarkestDungeon.png);
+}
+
+.review-img-2 {
+    background-image: url(../images/DeadCells.jpg);
+}
+
+.review-img-3 {
+    background-image: url(../images/Subnautica.png);
+}
+
+.tail1 {
+    height:100px;
+    border-top: 10px solid black;
+    border-bottom: 2px solid #6d6d6d;
+    display: flex;
+    padding: 0 0 0 15px;
+    background-color: #27bec5;
+}
+
+.tail2 {
+    height:100px;
+    display: flex;
+    padding: 0 0 0 15px;
+    background-color: #27bec5;
+}
+
+.tail1 .menu-item {
+    padding: 30px 15px 0;
+}
+
+.tail2 .menu-item {
+    padding: 35px 15px 0;
+}
+
+.tail1 .menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.tail2 .menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.tail1 .menu-item a:hover {
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+
+.tail2 .menu-item a:hover {
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+
+.tail2 .logos {
+    padding-left: 100px;
+}
