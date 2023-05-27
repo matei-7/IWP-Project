@@ -1,0 +1,159 @@
+.background_img {
+	background-image: url('../Sprites/background2.png');
+	background-repeat: repeat;
+	height: 100vh;
+	background-position: center;
+	background-size: contain;
+    padding: 25vh 0 0 0;
+}
+
+.content{
+	margin: auto;
+	width: 40%;
+	border: 2px solid #000000;
+	background-color: #0d0b4beb;
+    background-size: contain;
+	border-radius: 20px;
+	padding: 20px 40px;
+	font: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+.title{
+    text-align: center;
+	background-color: #006666;
+	padding: 1px;
+	border-radius: 10px;	
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #ffffff;
+    margin: 0 0 32px 0;
+}
+
+.submit{
+	padding: 5px;
+	padding-left: 30%;
+}
+
+.box {
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	background-color:#e6fff2;
+	border: 1px solid #8c8c8c;
+	color: black;
+}
+
+p {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+button[type="submit"] {
+	width: 150px;
+	border-radius: 5px;
+	background-color:#00b3b3;
+	border: 1px solid #006666;
+	color: white;
+	padding: 12px 0;
+	font-weight: bold;
+}
+
+
+label{
+	padding-right: 5px;
+}
+
+button[type="submit"]:hover{
+	background-color: #009999;
+	border: #001a0d;
+	box-shadow: 2px 2px 2px 2px #003333;
+	padding: 13px 0;
+}
+
+	
+.content p label{
+		width: 100px;
+		font-weight: bold;
+		float: left; 
+		padding-right: 20px;
+}
+	
+.p1{
+	color: #d9d9d9;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.p2{
+	display: inline-block;
+}
+
+a{
+	color: #00e6e6;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+	width: 230px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #d6fff2;
+}
+
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+
+.form-wo-signin {
+    padding-left: 10%;
+}
+.form--unhidden {
+  display: block;
+}
+.form--hidden {
+  display: none;
+}
+.form-no {
+    text-align: center;
+    padding-left: 0%;
+}
+label, input {
+  display: block;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 4px;
+}
+a.form__link {
+  text-decoration: none;
+  transition: 0.5s;
+}
+button {
+  margin-top: 5px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: rgb(9, 100, 170);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  outline-style: none;
+  outline-width: 0px;
+  overflow-wrap: break-word;
+  position: relative;
+  text-align: center;
+}
+a.form__link:hover {
+  color: #aa5810;
+}
