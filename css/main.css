@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     color: white;
 }
@@ -92,4 +93,100 @@ body {
 
 .row-header {
     margin: 0;
+=======
+body {
+    color: white;
+}
+
+.background_img {
+	background-image: url('../Sprites/background2.png');
+	background-repeat: repeat;
+	height: 60vh;
+	background-position: center;
+	background-size: contain;
+    position: relative;
+}
+
+.cafe_front {
+    background-image: url('../Sprites/bar.png');
+	background-repeat: repeat;
+	height: 40vh;
+	background-position: center;
+	background-size: contain;
+    position: relative;
+}
+
+.sw {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.barista {
+    position: absolute;
+    bottom: 0%;
+    left: calc(4% + 20vh);
+}
+
+.register {
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+}
+
+.c_click {
+    position: absolute;
+    top: calc(50% - 14vh);
+    left: calc(50% - 14vh);
+}
+
+.c_click img {
+    max-height: 40vh;
+    max-width: 40vh;
+}
+
+.counter {
+    position: absolute;
+    top: calc(50% + 16vh);
+    left: calc(50% - 6vh);
+}
+
+.counter img {
+    max-height: 12vh;
+}
+
+.cafe_front, .cafe_back {
+    margin: 0;
+}
+
+.cafe {
+    padding: 0;
+    width: 75%;
+}
+
+.upgrades-menu {
+    padding: 0;
+    background-image: url('../Sprites/buttons/button-empty.png');
+	background-position: center;
+	background-size: contain;
+    width: 25%;
+}
+
+.machines {
+    padding: 0;
+    margin: 0;
+    height: 60vh;
+    width: auto;
+}
+
+.upgrades {
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+    width: auto;
+}
+
+.row-header {
+    margin: 0;
+>>>>>>> 28ff6fcd2af02592dba57a27c3420f76f08cb2ac
 }
